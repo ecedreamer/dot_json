@@ -1,0 +1,68 @@
+  {
+  "name": "Dipak Niroula",
+  "profession": "Engineer",
+  "specialization": "Software Engineer",
+  "skills": [
+    {
+      "skill": "Python Programming Language",
+      "experience": "6 years"
+    },
+    {
+      "skill": "Data Engineering",
+      "experience": "1 year"
+    },
+    {
+      "skill": "Web Development",
+      "experience": "5 years"
+    }
+  ],
+  "address": {
+    "permanent": "Belbari-1, Naksalbari, Morang, Nepal",
+    "temporary": "Lalitpur-14, Nakhipot, Lalitpur, Nepal"
+  },
+  "education": [
+    {
+      "level": "Master",
+      "program": "ME, Computer Engineering",
+      "year": "2022-2024"
+    },
+    {
+      "level": "Bachelor",
+      "program": "BE, Electronics Engineering",
+      "year": "2012-2016"
+    },
+    {
+      "level": "Intermediate",
+      "program": "Intermediate in Science",
+      "year": "2008-2010"
+    }
+  ],
+  "experiences": [
+    {
+      "company": "Logpoint Nepal",
+      "positions": [
+        {
+          "designation": "Software Engineer, Python",
+          "duration": "Jan, 2022 - Still Working"
+        }
+      ]
+    },
+    {
+      "company": "Sarobar Technology",
+      "positions": [
+        {
+          "designation": "Senior Software Engineer, Python, JavaScript",
+          "duration": "Jan, 2017 - Dec, 2021"
+        },
+        {
+          "designation": "Cofounder and Project Manager",
+          "duration": "Jan, 2017 - Dec, 2021"
+        },
+        {
+          "designation": "Web Development Trainer",
+          "duration": "Jan, 2017 - Dec, 2020"
+        }
+      ]
+    }
+  ]
+}
