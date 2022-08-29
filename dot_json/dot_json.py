@@ -1,5 +1,6 @@
 import os.path
 import json
+import hashlib
 
 import magic
 
@@ -49,7 +50,10 @@ def _get_human_readable_size(file_path):
 
 
 def get_file_stat(file_path):
-    return {"name": file_path.split("/")[-1], "size": _get_human_readable_size(file_path)}
+    with open(file_path, "rb") as file:
+        checksum_sha256 = hashlib.sha256(file.read()).hexdigest()
+    return {"name": file_path.split("/")[-1], "size": _get_human_readable_size(file_path),
+            "checksum_sha256": checksum_sha256}
 
 
 def describe_json_file(file_path) -> dict:
